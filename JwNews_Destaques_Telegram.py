@@ -1,5 +1,6 @@
 import csv
 import shutil
+import telepot
 
 import requests
 from bs4 import BeautifulSoup
@@ -54,11 +55,18 @@ def compare():
     for row in csv_1:
         list2.append(row[0])
 
-    difference = set(list1).difference(set(list2))
-    print(difference)  
-
+    diferenca = set(list1).difference(set(list2))
+    print(diferenca)
+    
+    if diferenca != '':
+        for item in diferenca:
+            item = str(item)
+            bot = telepot.Bot('1591788137:AAFXANf-i5DYCCFJMuEe5cCjP1X7-I1WwPM')
+            bot.sendMessage(984798692, item)
+            
     s.close()
-    o.close()
-
+    o.close()    
+    
 compare()
 shutil.copy('newsJW.csv', 'newsJW2.csv')
+print(f'\n\n>>> Fim do Script <<<')
