@@ -1,0 +1,14 @@
+1658175805879	geckodriver	INFO	Listening on 127.0.0.1:59538
+1658175808923	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\johnny\\AppData\\Local\\Temp\\rust_mozprofileSrqK2S"
+1658175810333	Marionette	INFO	Marionette enabled
+1658175810347	Marionette	INFO	Listening on port 59550
+Read port: 59550
+1658175810872	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\johnny\\AppData\\Local\\Temp\\rust_mozprofileSrqK2S\\search.json.mozlz4", (void 0)))
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
